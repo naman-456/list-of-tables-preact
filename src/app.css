@@ -36,4 +36,12 @@
   background-color: aqua;
 }
 
+.heading1{
+    text-align: center;
+    color: #ff0000;
+    text-decoration: underline;
+}
+.heading1 span{
+  background-color: #ffff00; 
+}
 

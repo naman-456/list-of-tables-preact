@@ -5,6 +5,7 @@ export const App = () => {
   const numbers = Array.from({length: 10}, (_value, index) => index + 1)
   return (
     <>
+       <h1 class="heading1"><span>Multiplication table chart</span></h1>
        <div class="numbers-table">
          {arr.length && arr.map((item,i) => (
               <>
