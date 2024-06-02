@@ -1,7 +1,7 @@
 import './app.css'
 import { useState } from "preact/hooks";
 export const App = () => {
-  const [arr, setArray] = useState(Array.from({length: 15}, (_value, index) => index + 1));
+  const [arr, _setArray] = useState(Array.from({length: 15}, (_value, index) => index + 1));
   const numbers = Array.from({length: 10}, (_value, index) => index + 1)
   return (
     <>
